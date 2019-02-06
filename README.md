@@ -4,7 +4,7 @@ My program assumes valid, well-formed entries as input and was tested on the sam
 
 Without modifying the required interface of
 
-accept_packet(String direction, String protocol, int port, String ip_address);,
+accept_packet(String direction, String protocol, int port, String ip_address),
 
 I was able to check any packet except those with a port range. Instead, my program is only capable of checking packets with single ports. I would like to know how it would be possible to deal with port ranges when the function can only accept integers, as this problem had me stumped.
 
